@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TrackMyImpact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TrackMyImpact</h1>
+    <p>Your achievements, logged and ready when it matters.</p>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <h2>Log an Achievement</h2>
+      <form id="achievement-form">
+        <input type="text" id="title" placeholder="Title" required />
+        <textarea id="description" placeholder="Description..." rows="3" required></textarea>
+        <input type="date" id="date" />
+        <input type="text" id="tags" placeholder="Tags (e.g. Azure, Teamwork)" />
+        <select id="type">
+          <option value="">Type</option>
+          <option value="individual">Individual</option>
+          <option value="team">Team</option>
+          <option value="volunteer">Volunteer</option>
+        </select>
+        <button type="submit">Save</button>
+      </form>
+    </section>
+
+    <section id="entries"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
