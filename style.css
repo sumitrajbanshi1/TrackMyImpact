@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #333;
+}
+header {
+  background: #2563eb;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+}
+form input, form textarea, form select, form button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+form button {
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.entry {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #2563eb;
+  background: #f1f5f9;
+  border-radius: 6px;
+}
